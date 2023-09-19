@@ -11,12 +11,21 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87BAC712-E34F-447D-AC2A-8472B3D5B30D}"/>
 						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Pavement" ID="{ECCCDEBE-F446-42D8-A179-1C8CA3DD3CA9}" WorkUnitID="{1EC87696-88EE-4FEB-A143-1EE7C9C46827}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{986D69FB-3575-425E-98F8-69C2A33E10A1}"/>
 						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface" ID="{20E641EE-CB3A-4A4D-963D-86288D75C6E2}" WorkUnitID="{1EC87696-88EE-4FEB-A143-1EE7C9C46827}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="New Sound SFX" ID="{7F8CEEC4-7927-42A8-A4D5-AB8D0FDBA2FB}" ShortID="766738770">
+						<Sound Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{D3EEAA1A-BE83-4C5C-8FBE-1B3F20AA1C35}" ShortID="667861398">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87BAC712-E34F-447D-AC2A-8472B3D5B30D}"/>
@@ -25,8 +34,23 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{986D69FB-3575-425E-98F8-69C2A33E10A1}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{C16477EA-BC0B-45F5-B0A3-059CDE286BBC}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="293354672"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{C16477EA-BC0B-45F5-B0A3-059CDE286BBC}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="New Sound SFX_01" ID="{437B3275-8BF9-43C2-A33F-D29589BF6CA1}" ShortID="85040413">
+						<Sound Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{7F9FC2A3-3723-4CA4-817B-C8C309DA88FF}" ShortID="892397121">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87BAC712-E34F-447D-AC2A-8472B3D5B30D}"/>
@@ -35,8 +59,23 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{986D69FB-3575-425E-98F8-69C2A33E10A1}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{166444D2-0DCD-4A2E-B625-FDED0B571E9B}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="240900120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{166444D2-0DCD-4A2E-B625-FDED0B571E9B}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="New Sound SFX_02" ID="{0188E54D-6730-49D3-A675-6A9EA7A02A3D}" ShortID="601181051">
+						<Sound Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{0EE3D4AE-7FA9-4007-9736-A6C847CA6802}" ShortID="1021335688">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87BAC712-E34F-447D-AC2A-8472B3D5B30D}"/>
@@ -45,8 +84,23 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{986D69FB-3575-425E-98F8-69C2A33E10A1}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{B9A95F1E-A22F-425E-B1CF-441B8D885F77}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="502691964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{B9A95F1E-A22F-425E-B1CF-441B8D885F77}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="New Sound SFX_03" ID="{9B8E8098-CAA5-455D-8B25-111DE497AE8C}" ShortID="596003842">
+						<Sound Name="Vehicles, Bicycle, Road Bike, POV, Gravel, Bumpy SND43763" ID="{9EBE06A8-C2B5-4238-A453-E82440D7490F}" ShortID="720259988">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87BAC712-E34F-447D-AC2A-8472B3D5B30D}"/>
@@ -55,35 +109,113 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{986D69FB-3575-425E-98F8-69C2A33E10A1}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Road Bike, POV, Gravel, Bumpy SND43763" ID="{D119851B-EEDE-49EC-B452-025E99A57C9F}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Road Bike, POV, Gravel, Bumpy SND43763.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="180381905"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Road Bike, POV, Gravel, Bumpy SND43763" ID="{D119851B-EEDE-49EC-B452-025E99A57C9F}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
-								<ItemRef Name="New Sound SFX_02" ID="{0188E54D-6730-49D3-A675-6A9EA7A02A3D}"/>
+								<ItemRef Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{D3EEAA1A-BE83-4C5C-8FBE-1B3F20AA1C35}"/>
 								<PropertyList>
 									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
 								</PropertyList>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="New Sound SFX_01" ID="{437B3275-8BF9-43C2-A33F-D29589BF6CA1}"/>
+								<ItemRef Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{7F9FC2A3-3723-4CA4-817B-C8C309DA88FF}"/>
 								<PropertyList>
 									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
 								</PropertyList>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="New Sound SFX_03" ID="{9B8E8098-CAA5-455D-8B25-111DE497AE8C}"/>
+								<ItemRef Name="Vehicles, Bicycle, Road Bike, POV, Gravel, Bumpy SND43763" ID="{9EBE06A8-C2B5-4238-A453-E82440D7490F}"/>
 								<PropertyList>
 									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
 								</PropertyList>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="New Sound SFX" ID="{7F8CEEC4-7927-42A8-A4D5-AB8D0FDBA2FB}"/>
+								<ItemRef Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{0EE3D4AE-7FA9-4007-9736-A6C847CA6802}"/>
 								<PropertyList>
 									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
 								</PropertyList>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Dirt" ID="{D4B10218-BFBF-47F3-B630-1A1051820517}"/>
+								<ItemList>
+									<ItemRef Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{7F9FC2A3-3723-4CA4-817B-C8C309DA88FF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{BD20D5A3-ED6B-4627-A0B9-790E7AE12F07}"/>
+								<ItemList>
+									<ItemRef Name="Vehicles, Bicycle, Road Bike, POV, Gravel, Bumpy SND43763" ID="{9EBE06A8-C2B5-4238-A453-E82440D7490F}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Pavement" ID="{ECCCDEBE-F446-42D8-A179-1C8CA3DD3CA9}"/>
+								<ItemList>
+									<ItemRef Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{0EE3D4AE-7FA9-4007-9736-A6C847CA6802}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Leaves" ID="{704159F1-F8DC-43E4-9192-11A0D2C6D509}"/>
+								<ItemList>
+									<ItemRef Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{D3EEAA1A-BE83-4C5C-8FBE-1B3F20AA1C35}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>
